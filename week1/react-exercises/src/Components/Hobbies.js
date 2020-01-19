@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Hobbies() {
+export default function Hobbies({ hobby }) {
   return (
-    <div>
-
-    </div>
+    <li className="hobby">
+      {hobby}
+    </li>
   )
 }
